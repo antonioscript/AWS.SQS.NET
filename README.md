@@ -3,14 +3,16 @@ This repository demonstrates how to integrate Amazon SQS (Simple Queue Service) 
 
 # Summary
 
-- [Amazon SQS com .NET](#awssqsnet)
-- [Tipos de Filas](#types-of-queues)
-- [Criar Fila (Create Queue)](#create-queue)
-- [Aplicação](#application)
+- [AWS.SQS.NET](#awssqsnet)
+- [SQS](#sqs)
+  - [Types of Queues](#types-of-queues)
+  - [Create Queue](#create-queue)
+- [Application](#application)
   - [Producer](#producer)
   - [Consumer](#consumer)
-- [Visualização no Console AWS](#queu-on-aws-console)
-- [Referências](#references)
+- [Queue on AWS Console](#queu-on-aws-console)
+- [References](#references)
+
 
 
 
