@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace AmazonSQS.NET.Controllers
+namespace Consumer.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

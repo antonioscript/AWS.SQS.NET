@@ -1,4 +1,4 @@
-namespace AmazonSQS.NET
+namespace Consumer.API
 {
     public class WeatherForecast
     {
