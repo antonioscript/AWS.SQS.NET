@@ -30,16 +30,14 @@ public class OrderCreatedEventConsumer : BackgroundService
         {
             var response = await _sqsClient.ReceiveMessageAsync(receiveRequest);
 
-            if (response.Messages.Count > 0)
+            if (response.Messages?.Any() == true)
             {
                 foreach (var message in response.Messages)
                 {
-                    _logger.LogInformation("Received Message from Queue {queueName} with body as : \n {body}", OrderCreatedEventQueueName, message.Body);
-                    
-                    //perform some processing.
-                    //mock 2 seconds delay for processing
+                    _logger.LogInformation("Received Message from Queue {queueName} with body as:\n{body}", OrderCreatedEventQueueName, message.Body);
 
-                    Task.Delay(2000).Wait();
+                    // Simula processamento de 2 segundos
+                    await Task.Delay(2000, stoppingToken);
 
                     await _sqsClient.DeleteMessageAsync(queueUrl, message.ReceiptHandle);
                 }
