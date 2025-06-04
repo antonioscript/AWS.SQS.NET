@@ -2,14 +2,6 @@
 This repository demonstrates how to integrate Amazon SQS (Simple Queue Service) with .NET applications. It includes examples for sending, receiving, and deleting messages from queues
 
 
-# Application
-![image](https://github.com/user-attachments/assets/13bdf05f-5071-4a32-93fe-f37ad1d28949)
-
-----
-
-
-
-
 # SQS
 
 ![image](https://github.com/user-attachments/assets/fc5838a7-c1fb-494e-8356-f30bbc5f103f)
@@ -33,6 +25,39 @@ Amazon SQS provides two types of queues based on your requirements.
 
 ![image](https://github.com/user-attachments/assets/1ea07d43-8504-491e-8972-bcfae70232a5)
 
+
+------
+
+# Application
+![image](https://github.com/user-attachments/assets/13bdf05f-5071-4a32-93fe-f37ad1d28949)
+
+----
+
+## Producer
+![image](https://github.com/user-attachments/assets/18f62cba-5e02-41c8-a581-3937fe8e150b)
+----
+
+
+
+### Queu on AWS Console
+![image](https://github.com/user-attachments/assets/66dbf1da-e3d9-46f5-ab92-abae2f048510)
+
+----
+
+![image](https://github.com/user-attachments/assets/ba27f642-d90c-4c11-9db3-557f821c84ee)
+
+----
+![image](https://github.com/user-attachments/assets/86e6fbbf-bda1-4116-b031-5e0e3bec7058)
+
+
+----
+
+![image](https://github.com/user-attachments/assets/42c292ed-41ea-40b1-af6f-9de8bc7e6cfd)
+
+
+-------
+
+### Consumer
 
 ## References
 https://codewithmukesh.com/blog/amazon-sqs-and-aspnet-core/
